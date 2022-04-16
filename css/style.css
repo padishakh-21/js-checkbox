@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    background-image: url(../img/i.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: calc(50% + 178px);
+    background-position-x: calc(50% + 315px);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    margin-right: 25px;
+}
+
+.btn {
+    border: none;
+    border-radius: inherit;
+}
+
+hr {
+    width: 100%;
+}
